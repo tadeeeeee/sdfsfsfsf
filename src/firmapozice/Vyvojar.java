@@ -13,4 +13,10 @@ public class Vyvojar extends Zamestnanec {
         super.vypisInfo();
         System.out.println("Programovací jazyky: " + String.join(", ", programovaciJazyky));
     }
+
+    public String toString(){
+
+        return
+        System.out.println(programovaciJazyky.toString());
+    }
 }
